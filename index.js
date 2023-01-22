@@ -15,7 +15,7 @@ function product(input1, input2){
     return parseInt(input1) * parseInt(input2)
 }
 
-function divide(input1, input2){
+function division(input1, input2){
     return parseInt(input1) / parseInt(input2)
 }
 
@@ -30,6 +30,6 @@ function calculate(){
         return product(num1.value, num2.value);
     }
     else if(operatorType.value =="/"){
-        return divide(num1.value, num2.value);
+        return division(num1.value, num2.value);
     }
 }
