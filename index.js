@@ -21,15 +21,17 @@ function division(input1, input2){
 
 function calculate(){
     if(operatorType.value == "+"){
-        return result.innerHTML = sum(num1.value, num2.value);
+        result.innerHTML = sum(num1.value, num2.value);
     }
     else if(operatorType.value == "-"){
-        return result.innerHTML = difference(num1.value, num2.value);
+        result.innerHTML = difference(num1.value, num2.value);
     }
     else if(operatorType.value == "*"){
-        return result.innerHTML = product(num1.value, num2.value);
+        result.innerHTML = product(num1.value, num2.value);
     }
     else if(operatorType.value == "/"){
-        return result.innerHTML = division(num1.value, num2.value);
+        result.innerHTML = division(num1.value, num2.value);
     }
+    num1.value = ""
+    num2.value = ""
 }
