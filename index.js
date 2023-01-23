@@ -20,16 +20,16 @@ function division(input1, input2){
 }
 
 function calculate(){
-    if(operatorType.value =="+"){
+    if(operatorType.value == "+"){
         return result.innerHTML = sum(num1.value, num2.value);
     }
-    else if(operatorType.value =="-"){
+    else if(operatorType.value == "-"){
         return difference(num1.value, num2.value);
     }
-    else if(operatorType.value =="*"){
+    else if(operatorType.value == "*"){
         return product(num1.value, num2.value);
     }
-    else if(operatorType.value =="/"){
+    else if(operatorType.value == "/"){
         return division(num1.value, num2.value);
     }
 }
