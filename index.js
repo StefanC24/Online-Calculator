@@ -8,7 +8,7 @@ function sum(input1, input2){
 }
 
 function difference(input1, input2){
-    parseInt(input1) - parseInt(input2)
+    return parseInt(input1) - parseInt(input2)
 }
 
 function product(input1, input2){
@@ -24,12 +24,12 @@ function calculate(){
         return result.innerHTML = sum(num1.value, num2.value);
     }
     else if(operatorType.value == "-"){
-        return difference(num1.value, num2.value);
+        return result.innerHTML = difference(num1.value, num2.value);
     }
     else if(operatorType.value == "*"){
-        return product(num1.value, num2.value);
+        return result.innerHTML = product(num1.value, num2.value);
     }
     else if(operatorType.value == "/"){
-        return division(num1.value, num2.value);
+        return result.innerHTML = division(num1.value, num2.value);
     }
 }
